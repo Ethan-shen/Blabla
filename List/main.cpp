@@ -1,7 +1,7 @@
 #include <iostream>
 #include "list.cpp"
-#include <list>
 using namespace std;
+
 int main()
 {
     List<int> a;
@@ -9,9 +9,6 @@ int main()
         a.push_back(i);
     cout << a._size() << endl;
     cout << a[-1] << endl;
-
-
-
 
     return 0;
 
